@@ -21,7 +21,6 @@ func init() {
 	viper.AddConfigPath("config")
 	viper.SetConfigName("config")
 	viper.SetConfigType("yaml")
-
 	if err := viper.ReadInConfig(); err != nil {
 		log.Fatal("Error reading config file", err)
 	}
@@ -30,6 +29,7 @@ func init() {
 func main() {
 	//URI without ssl=true
 	var mongoURI = viper.GetString("database.atlasConnectionString")
+	fmt.Println("mongURI+123: " + mongoURI)
 	dialInfo, err := mgo.ParseURL(mongoURI)
 	if err != nil {
 		panic(err)

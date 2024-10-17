@@ -1,0 +1,17 @@
+# Config file for Air
+root = "."
+tmp_dir = "tmp"
+[build]
+  cmd = "go build -o ./tmp/app cmd/$SERVICE_NAME/main.go"
+  bin = "tmp/app"
+  full_bin = "tmp/app"
+  include_ext = ["go"]
+  exclude_dir = ["vendor", "tmp"]
+  exclude_file = []
+  follow_symlink = true
+  delay = 1000
+  kill_delay = 500
+  log = "air.log"
+  color = "true"
+  [build.env]
+    SERVICE_NAME = "bookings"
