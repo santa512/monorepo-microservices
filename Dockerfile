@@ -1,5 +1,5 @@
 #build stage
-FROM golang:1.11.4 AS builder
+FROM golang:1.23.2 AS builder
 ARG SERVICE_NAME
 WORKDIR $GOPATH/src/github.com/santa512/monorepo-microservices
 ADD . .
