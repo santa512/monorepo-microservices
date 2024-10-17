@@ -1,7 +1,7 @@
 package interactor
 
 import (
-	"github.com/irahardianto/monorepo-microservices/auth/model"
+	"github.com/santa512/monorepo-microservices/auth/model"
 )
 
 type AuthenticationInteractor interface {

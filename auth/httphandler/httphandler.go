@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/irahardianto/monorepo-microservices/auth/httphandler/interactor"
-	"github.com/irahardianto/monorepo-microservices/auth/storage/mongodb"
+	"github.com/santa512/monorepo-microservices/auth/httphandler/interactor"
+	"github.com/santa512/monorepo-microservices/auth/storage/mongodb"
 )
 
 type AuthHandler struct {

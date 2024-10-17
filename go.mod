@@ -1,4 +1,4 @@
-module github.com/irahardianto/monorepo-microservices
+module github.com/santa512/monorepo-microservices
 
 require (
 	github.com/SermoDigital/jose v0.9.2-0.20161205224733-f6df55f235c2

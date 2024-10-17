@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/irahardianto/monorepo-microservices/package/authenticator/jwt"
+	"github.com/santa512/monorepo-microservices/package/authenticator/jwt"
 )
 
 // ValidateToken is a middleware that validate token from header

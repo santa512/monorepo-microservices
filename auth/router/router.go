@@ -2,9 +2,9 @@ package router
 
 import (
 	"github.com/go-chi/chi"
-	"github.com/irahardianto/monorepo-microservices/auth/httphandler"
-	"github.com/irahardianto/monorepo-microservices/auth/storage/mongodb"
-	"github.com/irahardianto/monorepo-microservices/auth/usecase/auth"
+	"github.com/santa512/monorepo-microservices/auth/httphandler"
+	"github.com/santa512/monorepo-microservices/auth/storage/mongodb"
+	"github.com/santa512/monorepo-microservices/auth/usecase/auth"
 )
 
 func InitRouter(r *chi.Mux, s *mongodb.Storage) *chi.Mux {

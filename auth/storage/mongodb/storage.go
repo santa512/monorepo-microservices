@@ -1,7 +1,7 @@
 package mongodb
 
 import (
-	"github.com/irahardianto/monorepo-microservices/auth/model"
+	"github.com/santa512/monorepo-microservices/auth/model"
 	mgo "gopkg.in/mgo.v2"
 	"gopkg.in/mgo.v2/bson"
 )

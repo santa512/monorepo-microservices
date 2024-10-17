@@ -6,11 +6,11 @@ import (
 	"log"
 	"time"
 
-	"github.com/irahardianto/monorepo-microservices/auth/usecase/storage"
+	"github.com/santa512/monorepo-microservices/auth/usecase/storage"
 
 	jwt "github.com/dgrijalva/jwt-go"
-	"github.com/irahardianto/monorepo-microservices/auth/model"
-	"github.com/irahardianto/monorepo-microservices/package/hasher"
+	"github.com/santa512/monorepo-microservices/auth/model"
+	"github.com/santa512/monorepo-microservices/package/hasher"
 )
 
 const (

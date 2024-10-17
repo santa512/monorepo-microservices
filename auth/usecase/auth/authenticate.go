@@ -3,10 +3,10 @@ package auth
 import (
 	"errors"
 
-	"github.com/irahardianto/monorepo-microservices/auth/authenticator"
-	"github.com/irahardianto/monorepo-microservices/auth/model"
-	"github.com/irahardianto/monorepo-microservices/auth/usecase/storage"
-	"github.com/irahardianto/monorepo-microservices/package/hasher"
+	"github.com/santa512/monorepo-microservices/auth/authenticator"
+	"github.com/santa512/monorepo-microservices/auth/model"
+	"github.com/santa512/monorepo-microservices/auth/usecase/storage"
+	"github.com/santa512/monorepo-microservices/package/hasher"
 	"github.com/spf13/viper"
 )
 

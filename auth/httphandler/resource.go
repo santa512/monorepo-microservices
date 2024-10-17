@@ -1,6 +1,6 @@
 package httphandler
 
-import "github.com/irahardianto/monorepo-microservices/auth/model"
+import "github.com/santa512/monorepo-microservices/auth/model"
 
 type (
 	// For Post/Put - /users

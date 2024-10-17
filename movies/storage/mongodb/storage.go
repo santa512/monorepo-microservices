@@ -3,7 +3,7 @@ package mongodb
 import (
 	"time"
 
-	"github.com/irahardianto/monorepo-microservices/movies/model"
+	"github.com/santa512/monorepo-microservices/movies/model"
 
 	mgo "gopkg.in/mgo.v2"
 	"gopkg.in/mgo.v2/bson"

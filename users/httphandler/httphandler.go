@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/irahardianto/monorepo-microservices/package/hasher"
+	"github.com/santa512/monorepo-microservices/package/hasher"
 
 	"github.com/go-chi/chi"
-	"github.com/irahardianto/monorepo-microservices/users/storage"
+	"github.com/santa512/monorepo-microservices/users/storage"
 
 	mgo "gopkg.in/mgo.v2"
 )
